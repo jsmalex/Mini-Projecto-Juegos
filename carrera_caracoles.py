@@ -1,14 +1,14 @@
 import os, time, keyboard
 
-
 longitud_pista = 100
 posicion_jugador_1 = 0
 posicion_jugador_2 = 0
 meta = longitud_pista
 
 
+
 def mostrar_menu():
-    print("\t\t\t¡Bienvenido a Carrera de Caracoles!\n")
+    print("\n\t\t\t¡Bienvenido a Carrera de Caracoles!\n")
     print("******************************************************************************************")
     print("*                                                                                        *")
     print("*\t\t\t\tREGLAS DE JUEGO                                          *")
@@ -83,7 +83,6 @@ def jugar():
             posicion_jugador_2 += 1
 
         if hay_ganador():
-            keyboard.unhook_all()
             break
 
         time.sleep(0.05)

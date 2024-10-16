@@ -64,4 +64,4 @@ while (puntos_usuario < 3) and (puntos_maquina < 3):
 if puntos_usuario == 3:
     print("Felicidades has ganado 🥳")
 elif puntos_maquina ==3:
-    print("Gano la IA. Suerte la proxima partida 🥳")
+    print("Gano la IA. Suerte la proxima partida.")

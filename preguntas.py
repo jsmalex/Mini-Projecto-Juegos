@@ -75,7 +75,7 @@ preguntas = 0
 preguntas_que_han_salido = []
 
 def mostrar_menu():
-    print("\t\t\t¡Bienvenido a Mad Quiz!\n")
+    print("\n\t\t\t¡Bienvenido a Mad Quiz!\n")
     print("******************************************************************************************")
     print("*                                                                                        *")
     print("*\t\t\t\tREGLAS DE JUEGO                                          *")
