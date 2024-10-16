@@ -70,6 +70,7 @@ lista_de_preguntas = (
       "d": "Diez, y luego necesita un café muy cargado"},
      "a")
 )
+
 puntos = 0
 preguntas = 0
 preguntas_que_han_salido = []
